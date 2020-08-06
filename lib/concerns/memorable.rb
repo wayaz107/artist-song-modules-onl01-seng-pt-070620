@@ -9,12 +9,9 @@ module Memorable
   end
 end
 
-module InstanceMethods
-def initialize
-
-
-end
-
-end
-
-end
+  module InstanceMethods
+    def initialize
+     @@all << self
+    end
+   end
+  end
